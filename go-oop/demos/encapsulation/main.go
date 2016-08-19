@@ -7,7 +7,7 @@ func main() {
 	e := encapsulation.Encapsulation{}
 
 	e.Expose()
-	//e.hide()
+	e.hide()
 	e.Unhide()
 
 }
